@@ -1,0 +1,18 @@
+{
+  "input": ["../raw/host.wav", "../raw/guest.wav"],
+  "output_dir": "../outputs/multitrack_episode",
+  "input_mode": "multitrack",
+  "track_offsets": {"1": 0, "2": 0.25},
+  "track_gains": {"1": 0, "2": -2},
+  "track_names": {"1": "Host microphone", "2": "Guest microphone"},
+  "podcast_name": "Interview",
+  "episode_topic": "Episode theme",
+  "install_ai_deps": true,
+  "compute": "auto",
+  "music_mode": "auto",
+  "music_style": "calm minimal instrumental",
+  "target_lufs": -16,
+  "enable_audition": true,
+  "review_limit": 20,
+  "require_technical_qa": true
+}

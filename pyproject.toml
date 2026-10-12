@@ -1,0 +1,17 @@
+[project]
+name = "codex-multi-speaker-podcast"
+version = "0.1.0"
+requires-python = ">=3.10"
+
+[tool.uv]
+package = false
+
+[tool.ruff]
+target-version = "py310"
+line-length = 120
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*.py" = ["E402"]

@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.test-artifacts/
+podcast_output/
+outputs/
+raw_audio/
+raw/
+*.part
+*.pkf
+.env
+podcast_config.json

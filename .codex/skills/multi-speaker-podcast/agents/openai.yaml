@@ -1,0 +1,4 @@
+interface:
+  display_name: "Multi-Speaker Podcast"
+  short_description: "Clean, transcribe, edit, and package interview podcasts."
+  default_prompt: "Use $multi-speaker-podcast to turn my raw interview audio files into a publishable podcast episode."
